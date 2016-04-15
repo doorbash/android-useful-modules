@@ -1,1 +1,1 @@
-include ':app' , ':LicenseChecker' , ':UpdateDownloader'
+include ':app' , ':license-checker' , ':update-downloader'

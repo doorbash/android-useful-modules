@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v4.content.LocalBroadcastManager;
-import android.support.v4.content.pm.ActivityInfoCompat;
 import android.util.Log;
 
 import ir.doorbash.licensechecker.api.Client;

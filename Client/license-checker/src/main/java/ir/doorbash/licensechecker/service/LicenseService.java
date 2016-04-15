@@ -3,7 +3,6 @@ package ir.doorbash.licensechecker.service;
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
-import android.support.annotation.Nullable;
 import android.util.Log;
 
 import ir.doorbash.licensechecker.LC;
@@ -20,7 +19,6 @@ public class LicenseService extends Service {
     public static final int CHECK_TIME_GAP = 60 * 60 * 1000;
     public static final int ACTION_CHECK_LICENSE = 0;
 
-    @Nullable
     @Override
     public IBinder onBind(Intent intent) {
         return null;
