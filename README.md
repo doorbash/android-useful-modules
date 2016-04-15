@@ -4,7 +4,3 @@ Periodically Checks server for updates and downloads new version if available.Mo
 ###LicenseChecker
 Asks server if the application is expired or not.Add this module to the project, build the apk and send it to your client.
 Pull the plug in case of any problem with them!
-
-
-##Usage
-will be added soon
