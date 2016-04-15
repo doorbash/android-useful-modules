@@ -125,4 +125,14 @@ public class MainActivity extends AppCompatActivity {
         }
         super.onResume();
     }
+
+    @Override
+    protected void onDestroy() {
+        try {
+            LocalBroadcastManager.getInstance(this).
+                    unregisterReceiver(updateEventListener);
+        } catch (Exception e) {
+        }
+        super.onDestroy();
+    }
 }
